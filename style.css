@@ -357,3 +357,131 @@ footer  {
 footer p {
     text-align: center;
 }
+
+#experience {
+    padding: 5rem 0;
+    background-color: #f9f9f9;
+    min-height: fit-content;
+}
+
+.experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experience-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-header {
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.experience-header h2 {
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.experience-header h3 {
+    color: #666;
+    margin: 0 0 5px 0;
+}
+
+.experience-date {
+    font-style: italic;
+    color: #888;
+}
+
+.experience-content ul {
+    padding-left: 20px;
+}
+
+.experience-content li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.recommendation-button {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.recommendation-button .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+}
+
+#projects {
+    padding: 2rem 0;
+    background-color: #ffffff;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: calc(33.333% - 2rem);
+    min-width: 300px;
+}
+
+.project-item h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.project-item p {
+    margin-bottom: 1rem;
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.project-tech-stack li {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    list-style-type: none;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%;
+    }
+}
